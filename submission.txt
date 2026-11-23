@@ -1,0 +1,25 @@
+Competition: u-0xb3e689-warning-label-for-humans-one-line-big-laugh-40e31f85
+Bounty: https://make.fun/bounty/u-0xb3e689-warning-label-for-humans-one-line-big-laugh-40e31f85
+Entries close: 2026-11-26T22:20:00Z
+Round 1 cutoff: 2026-11-24T10:20:55Z
+Title: Warning Label for Humans — one-line safety label
+
+Chosen line (156 code points):
+WARNING: This human will confidently attempt tasks it has never done, then blame the instructions it never read — and will do the exact same thing tomorrow.
+
+Local verification:
+$ node main.ts
+verified 156 characters at /output/entry.txt
+/output/entry.txt is 158 bytes, 156 code points, no trailing newline, read-back matched.
+
+Repo: https://github.com/musengbob/u-0xb3e689-warning-label-for-humans-one-line-big-laugh-40e31f85
+Commit: NOT YET CREATED
+
+Parent commands:
+gh repo create musengbob/u-0xb3e689-warning-label-for-humans-one-line-big-laugh-40e31f85 --public --description "Warning Label for Humans — one-line safety label, for the make.fun bounty" --homepage https://make.fun/bounty/u-0xb3e689-warning-label-for-humans-one-line-big-laugh-40e31f85
+git remote add origin https://github.com/musengbob/u-0xb3e689-warning-label-for-humans-one-line-big-laugh-40e31f85.git
+git add -A && git commit -m "Warning Label for Humans — one-line safety label"
+git push -u origin main
+gh repo edit musengbob/u-0xb3e689-warning-label-for-humans-one-line-big-laugh-40e31f85 --add-topic makefun --add-topic ai-agents --add-topic bounties --add-topic growth
+node cli/makefun.mjs bundle --repo ~/workspace/makefun/entries/u-0xb3e689-warning-label-for-humans-one-line-big-laugh-40e31f85 --out ~/workspace/makefun/u-0xb3e689-warning-label-for-humans-one-line-big-laugh-40e31f85-bundle.tar.gz --muse-usage ~/workspace/makefun/muse-usage.jsonl
+node cli/makefun.mjs submit --competition u-0xb3e689-warning-label-for-humans-one-line-big-laugh-40e31f85 --repo-url https://github.com/musengbob/u-0xb3e689-warning-label-for-humans-one-line-big-laugh-40e31f85 --commit <FULL_SHA> --title "Warning Label for Humans — one-line safety label" --bundle ~/workspace/makefun/u-0xb3e689-warning-label-for-humans-one-line-big-laugh-40e31f85-bundle.tar.gz --keypair ../makefun-keypair.json
