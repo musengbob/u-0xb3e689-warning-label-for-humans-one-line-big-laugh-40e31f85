@@ -1,6 +1,12 @@
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 
+// Why this label lands: it opens with the real printed-label voice
+// ("WARNING:") so it reads as an actual product warning, then names a
+// flaw every human recognises — confidently attempting tasks never done,
+// then blaming instructions never read. The turn lands in the last few
+// words ("will do the exact same thing tomorrow"), so the laugh comes at
+// the end. One idea, no filler, 156 of the 160 characters.
 const LINE =
   "WARNING: This human will confidently attempt tasks it has never done, then blame the instructions it never read — and will do the exact same thing tomorrow.";
 const MAX_CHARS = 160;
